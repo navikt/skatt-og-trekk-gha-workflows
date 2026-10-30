@@ -24,4 +24,4 @@ jobs:
         uses: navikt/digestabot@3302a753e533ceb9ec216de7f78345436cd636e3 # ratchet:navikt/digestabot@v1.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          team: beregningsplattform
+          team: skatt-og-trekk

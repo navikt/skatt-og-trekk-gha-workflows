@@ -211,7 +211,7 @@ jobs:
         uses: nais/docker-build-push@dd7421d5068057a020ca46ead966c26190c516b1 # ratchet:nais/docker-build-push@v0
         id: docker-build-push
         with:
-          team: beregningsplattform
+          team: skatt-og-trekk
           dockerfile: ${{ inputs.dockerfile }}
           docker_context: ${{ inputs.docker-context }}
           image_suffix: ${{ inputs.image-suffix }}
