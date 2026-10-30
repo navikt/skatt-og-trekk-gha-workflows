@@ -1,4 +1,4 @@
-# beregningsplattform-gha-workflows
+# skatt-og-trekk-gha-workflows
 
 Repoet inneholder gjenbrukbare GitHub Actions workflows. Det er en forhåndsdefinert workflow som kan gjenbrukes på
 tvers av flere repositorier. Dette lar oss sentralisere og standardisere CI/CD-logikk,
@@ -13,10 +13,10 @@ Pin til commit SHA for forutsigbarhet og sikkerhet. Dependabot holder SHA-en opp
 ```yaml
 jobs:
   build-and-test:
-    uses: navikt/beregningsplattform-gha-workflows/.github/workflows/gradle-build-test-app.yaml@dac7a1ac47e76110d90af301b2152057c215c867 # ratchet:navikt/beregningsplattform-gha-workflows/.github/workflows/gradle-build-test-app.yaml@v1.0.0
+    uses: navikt/skatt-og-trekk-gha-workflows/.github/workflows/gradle-build-test-app.yaml@dac7a1ac47e76110d90af301b2152057c215c867 # ratchet:navikt/skatt-og-trekk-gha-workflows/.github/workflows/gradle-build-test-app.yaml@v1.0.0
 
   deploy:
-    uses: navikt/beregningsplattform-gha-workflows/.github/workflows/nais-deploy.yaml@dac7a1ac47e76110d90af301b2152057c215c867 # ratchet:navikt/beregningsplattform-gha-workflows/.github/workflows/nais-deploy.yaml@v1.0.0
+    uses: navikt/skatt-og-trekk-gha-workflows/.github/workflows/nais-deploy.yaml@dac7a1ac47e76110d90af301b2152057c215c867 # ratchet:navikt/skatt-og-trekk-gha-workflows/.github/workflows/nais-deploy.yaml@v1.0.0
 ```
 
 > **Viktig:** Bruk alltid commit SHA (ikke tag SHA). Finn riktig SHA slik:
