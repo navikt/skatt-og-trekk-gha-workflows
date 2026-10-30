@@ -8,7 +8,7 @@ slik at vi kan oppdatere, vedlikeholde og skalere denne logikken på ett sted.
 
 ### Anbefalt: SHA-pinning med versjon i kommentar
 
-Pin til commit SHA for forutsigbarhet og sikkerhet. Dependabot holder SHA-en oppdatert automatisk.
+Pin til commit SHA for forutsigbarhet og sikkerhet. Dependabot holder SHA-en oppdatert automatisk
 
 ```yaml
 jobs:
